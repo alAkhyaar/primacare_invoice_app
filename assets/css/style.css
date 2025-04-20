@@ -1,0 +1,156 @@
+/* CSS dasar */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.invoice-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #fff;
+    position: relative;
+}
+
+/* Header invoice */
+.invoice-header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.invoice-title {
+    font-size: 24px;
+}
+
+/* Informasi invoice */
+.invoice-info {
+    margin-bottom: 20px;
+}
+
+.billed-to {
+    background: #f8f9fa;
+    padding: 10px; /* Kurangi padding */
+    border-radius: 5px;
+}
+
+/* Tabel items */
+.table {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.table thead th,
+.table tbody td,
+.table tfoot th {
+    padding: 8px;
+}
+
+/* Keterangan */
+.notes-section {
+    margin: 20px 0;
+    padding: 15px;
+}
+
+/* Tanda tangan */
+.signature-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.signature-container p {
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.signature-img {
+    max-width: 150px;
+}
+
+/* Payment Information */
+.payment-info {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.payment-info h5 {
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.payment-info p {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.login-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.total-cell {
+    position: relative;
+}
+
+.paid-stamp {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: rotate(-15deg) translateY(-50%);
+    color: #dc3545;
+    border: 3px solid #dc3545;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    z-index: 100;
+}
+
+/* Tambahkan di style.css */
+.print-buttons {
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+    text-align: right;
+}
+
+.print-buttons .btn {
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+.print-buttons .btn i {
+    margin-right: 5px;
+} 
